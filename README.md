@@ -11,33 +11,33 @@ A modular RESTful API built using **Node.js** and **Express.js** that integrates
 
 ```bash
 flight-api/
-├── config/
-│ └── config.js 
-│
-├── controllers/
-│ └── flights.controller.js
-│
-├── middleware/
-│ └── flight.validator.js
-│
-├── routes/
-│ └── index.js 
-│ └── flights.route.js 
-│
-├── services/
-│ ├── flights.service.js
-│ └── hotel.service.js 
-│
-├── utils/
-│ └── tokenManager.js
+├── src/
+│   ├── config/
+│   │   └── config.js
+│   │
+│   ├── controllers/
+│   │   └── flights.controller.js
+│   │
+│   ├── middleware/
+│   │   └── flight.validator.js
+│   │
+│   ├── routes/
+│   │   ├── index.js
+│   │   └── flights.route.js
+│   │
+│   ├── services/
+│   │   ├── flights.service.js
+│   │   └── hotel.service.js
+│   │
+│   └── utils/
+│       └── tokenManager.js
 │
 ├── server.js
-├── .env 
+├── .env
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
 └── README.md
-
 ```
 
 
