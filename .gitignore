@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# Coverage directory used by testing tools
+coverage/
+
+# Compiled files (if using TypeScript or Babel)
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# VSCode project settings
+.vscode/
+
